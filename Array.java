@@ -113,7 +113,7 @@ public class Array extends CreateRandomArray {
             newArray[i] = array[i - 1];
         }
         array = newArray;
-        return ("The insertValue3 " + value + " has been inserted at insertIndex3 " + index + ".");
+        return ("The value " + value + " has been inserted at index " + index + ".");
     }
 
     public String toString() {
